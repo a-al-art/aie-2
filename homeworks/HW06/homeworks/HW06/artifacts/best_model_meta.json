@@ -1,0 +1,10 @@
+{
+  "best_model": "HistGB",
+  "metrics": {
+    "accuracy": 0.9033333333333333,
+    "f1": 0.7983777520278099,
+    "roc_auc": 0.9296298289141981
+  },
+  "random_state": 42,
+  "test_size": 0.2
+}
