@@ -1,0 +1,24 @@
+{
+    "dataset": "EMNIST",
+    "seed": 42,
+    "model_summary": "EarlyStopping + E3",
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "momentum": 0,
+    "weight_decay": 0,
+    "epochs_trained": 18,
+    "best_val_accuracy": 0.7755,
+    "best_val_loss": 0.7412727847099304,
+    "net_layers": [
+        "Flatten()",
+        "Linear()",
+        "BatchNorm()",
+        "ReLU()",
+        "Linear()",
+        "BatchNorm()",
+        "ReLU()",
+        "Linear()"
+    ],
+    "early_stopping_patience": 5,
+    "early_stopping_min_delta": 0.0001
+}

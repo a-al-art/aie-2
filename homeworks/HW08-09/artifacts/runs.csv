@@ -1,0 +1,8 @@
+,experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
+0,E1,EMNIST,42,base,Adam,0.001,0,0,20,0.759,0.7881806263923645
+1,E2,EMNIST,42,Dropout = 0.3,Adam,0.001,0,0,20,0.7735,0.7396012763977051
+2,E3,EMNIST,42,BatchNorm,Adam,0.001,0,0,20,0.7755,0.7412727847099304
+3,E4,EMNIST,42,EarlyStopping + E3,Adam,0.001,0,0,18,0.7755,0.7412727847099304
+4,O1,EMNIST,42,lr=1e-1 + E4,Adam,0.01,0,0,6,0.7005,1.0096521787643433
+5,O2,EMNIST,42,lr=1e-5 + E4,Adam,1e-05,0,0,6,0.234,3.3735647106170656
+6,O3,EMNIST,42,"SGD + weight_decay=1e-4, momentum=0.9",SGD,0.001,0.9,0.0001,12,0.686,1.294426549911499
