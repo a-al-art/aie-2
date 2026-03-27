@@ -1,0 +1,7 @@
+,experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+0,C1,classification,STL10,42,simple-cnn-base,Adam,0.001,10,0.5609375014901161,,,,,
+1,C2,classification,STL10,42,simple-cnn-augmentation,Adam,0.001,10,0.5630859360098839,,,,,
+2,C3,classification,STL10,42,resnet18-head-only,Adam,0.001,10,0.7419921867549419,,,,,
+3,C4,classification,STL10,42,resnet18-finetune,Adam,0.001,10,0.8214843757450581,0.8360264661312103,,,,
+4,V2,detection,VOCDetection,42,fasterrcnn_resnet50_fpn_v2,,,,,,0.5652173912797731,0.25490196077931565,0.8134423863320123,
+5,V2,detection,VOCDetection,42,fasterrcnn_resnet50_fpn_v2,,,,,,0.7857142856581633,0.2156862745055748,0.8053291848727635,
