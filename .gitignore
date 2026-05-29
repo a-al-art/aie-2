@@ -56,4 +56,11 @@ logs/
 *.bak
 *.old
 
-data/
+artifacts/model.pkl
+artifacts/preprocessor.pkl
+
+catboost_info/
+notebooks/catboost_info/
+
+
+homeworks/**/data/
